@@ -1,0 +1,253 @@
+/* common code start */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.container{
+	width: 75%;
+	height: 100%;
+	margin: 0px auto;
+}
+/* common code end */
+
+/* header code start */
+header{
+	background: #CCCCCC;
+}
+.header-inner{
+	background: #F5F5F5;
+	padding: 40px 10px;
+}
+.header-inner h1{
+	margin: 0px 0px 10px 0px;
+	letter-spacing: 2px;
+	color: #323232;
+	font-weight: 400;
+	font-size: 38px;
+	font-family: "century gothic", arial, sans-serif;
+}
+.header-inner h1 a{
+	color: #00C6F0;
+	text-decoration: none;
+}
+.header-inner h1 a:hover{
+	color: tomato;
+}
+.header-inner p{
+	margin: 0px;
+	color: #999;
+	font-size: 15px;
+	font-family: century gothic, sans serif;
+}
+/* header code end */
+
+/* nav code start */
+nav{
+	background: #CCCCCC;
+}
+.nav-inner{
+	background: #DDDDDD;
+}
+.nav-inner ul{
+	padding: 0px;
+	width: 50%;
+    margin: 0px 0px 0px auto;
+}
+.nav-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.nav-inner ul li a{
+	font-size: 13px;
+	color: #fff;
+	margin: 5px;
+	padding: 6px 20px;
+	display: inline-block;
+	background: #BBBBBB;
+	text-decoration: none;
+	font-family: "trebuchet ms", sans-serif;
+	transition: .5s all;
+}
+.nav-inner ul li a.active{
+	background: #00C6F0;
+}
+.nav-inner ul li a:hover{
+	background: #00C6F0;
+}
+/* nav code end */
+
+/* banner code start */
+.banner-section{
+	height: 180px;
+	margin-top: 20px;
+}
+.banner-inner{
+	/* background: url(../img/banner.jpg) no-repeat;
+	background-size: cover; */
+	border: 10px solid #DDDDDD;
+}
+.banner-inner img{
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+/* banner code end */
+
+/* main code start */
+main{
+	height: 600px;
+}
+.main-inner{
+	clear: both;
+}
+/* aside code start */
+.main-inner aside{
+	width: 25%;
+	height: 100%;
+	float: left;
+	padding: 20px 0px;
+}
+/* news-block code start */
+.main-inner aside .news-block{
+	border: 1px solid #DDDDDD;
+	border-radius: 20px;
+	padding: 15px;
+}
+.main-inner aside .news-block h2{
+	font-family: "century gothic", arial;
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	margin: 0px 0px 15px 0px;
+}
+.main-inner aside .news-block h3{
+	font-family: "century gothic", arial;
+	font-size: 14px;
+	color: #009fbc;
+	font-weight: 400;
+	margin: 0px;
+}
+.main-inner aside .news-block small{
+	color: #888;
+	font-family: "century gothic", arial;
+	font-size: 12px;
+}
+.main-inner aside .news-block p{
+	font-family: "trebuchet ms", arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #555;
+	margin: 0px;
+	margin: 15px 0px 0px 0px;
+}
+.main-inner aside .news-block a{
+	color: #00c6f0;
+	font-size: 13px;
+	font-family: "trebuchet ms", arial, sans-serif;
+}
+/* news-block code end */
+
+/* link-block code start */
+.main-inner aside .link-block{
+	border: 1px solid #DDDDDD;
+	border-radius: 20px;
+	padding: 15px;
+	margin: 20px 0px;
+}
+.main-inner aside .link-block h2{
+	font-family: "century gothic", arial;
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	margin: 0px 0px 15px 0px;
+}
+.main-inner aside .link-block ul{
+	margin: 0px;
+	padding: 0px;
+}
+.main-inner aside .link-block ul li{
+	list-style: url(../img/bullet.png) inside;
+	font-size: 13px;
+	line-height: 2;
+	font-family: "trebuchet ms", arial, sans-serif;
+}
+.main-inner aside .link-block ul li a{
+	color:#009fbc;
+}
+/* link-block code end */
+/* search-block code start */
+.main-inner aside .search-block{
+	border: 1px solid #DDDDDD;
+	border-radius: 20px;
+	padding: 15px;
+}
+.main-inner aside .search-block h2{
+	font-family: "century gothic", arial;
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	margin: 0px 0px 15px 0px;
+}
+/* search-block code end */
+/* aside code end */
+/* article code start */
+.main-inner article{
+	width: 75%;
+	height: 100%;
+	float: left;
+	padding: 20px;
+}
+.main-inner article h2{
+	font-family: "century gothic", arial;
+	font-size: 22px;
+	color: #000;
+	font-weight: 400;
+	margin: 0px 0px 20px 0px;
+}
+.main-inner article p{
+	font-family: "trebuchet ms", arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #555;
+	margin: 0px;
+	margin: 0px 0px 20px 0px;
+}
+.main-inner article p a{
+	color: #00c6f0;
+}
+.main-inner article h3{
+	font-family: "century gothic", arial;
+	font-size: 20px;
+	color: #009fbc;
+	font-weight: 400;
+	margin: 0px 0px 20px 0px;
+}
+.main-inner article ul{
+	margin: 0px;
+	padding: 0px;
+}
+.main-inner article ul li{
+	list-style: url(../img/bullet.png) inside;
+	color: #555;
+	font-size: 13px;
+	line-height: 2;
+	font-family: "trebuchet ms", arial, sans-serif;
+}
+/* article code end */
+/* main code end */
+
+/* footer code start */
+footer{
+	background: #CCCCCC;
+}
+footer p{
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+	padding: 20px 0px;
+	font-size: 13px;
+	font-family: "trebuchet ms", sans-serif;
+}
+/* footer code end */
